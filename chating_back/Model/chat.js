@@ -14,4 +14,4 @@ const chatSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-module.exports = mongoose.module("User", chatSchema);
+module.exports = mongoose.model("User", chatSchema);
